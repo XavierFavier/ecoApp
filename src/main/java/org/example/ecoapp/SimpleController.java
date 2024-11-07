@@ -18,6 +18,7 @@ public class SimpleController {
     @PostMapping("/annonce")
     public String annonce(@RequestBody AnnonceDTO annonce) {
         annonceService.createAnnonce(annonce);
+        System.out.println(annonce);
         return annonce.toString();
     }
 }

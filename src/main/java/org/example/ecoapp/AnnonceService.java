@@ -20,7 +20,7 @@ public class AnnonceService {
                     "            <h3>" + annonce.getName() + "</h3>\n" +
                     "            <p>" + annonce.getDescription() + "</p>\n" +
                     "            <p>Ville : <span class=\"user-info\">" + annonce.getCity() + "</span></p>\n" +
-                    "            <p>Tel: <span class=\"user-info\">" + annonce.getPhone() + "/span></p>\n" +
+                    "            <p>Tel: <span class=\"user-info\">" + annonce.getPhone() + "</span></p>\n" +
                     "        </div>";
         }
 
